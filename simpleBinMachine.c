@@ -7,6 +7,13 @@
 
 #include <stdio.h>
 
+//block sample
+// ---------------------------------------
+// | BIT | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+// ---------------------------------------
+// |     | OP CODE   | Address (adr)     |
+// ---------------------------------------
+
 //assembler definition
 #define NOP  0b000 // empty op
 #define LOAD 0b001 // load <adr> - load from memory to register
@@ -165,11 +172,12 @@ int main() {
         0b01011110, //ADD  11110
         0b01011110, //ADD  11110
         0b01111101, //SAVE 11101
+        0b10111111, //jump to 1F
         0b11111111  //HALT
     };
 
     //add vars
-    mem[0b11111] = 56;
+    mem[0b11111] = 0b11111111; // data as -1 but halt too
     mem[0b11110] = 10;
 
     print_mem(mem);
