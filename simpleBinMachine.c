@@ -172,17 +172,16 @@ int main() {
         0b01011110, //ADD  11110
         0b01011110, //ADD  11110
         0b01111101, //SAVE 11101
-        0b10111111, //jump to 1F
         0b11111111  //HALT
     };
 
     //add vars
-    mem[0b11111] = 0b11111111; // data as -1 but halt too
+    mem[0b11111] = 20;
     mem[0b11110] = 10;
 
     print_mem(mem);
     cpu(mem);
-    print_mem(mem);
+    print_mem(mem); //now is in cell 1D result of 20 + 10 + 10
 
     return 0;
 }
