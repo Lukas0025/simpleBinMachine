@@ -1,4 +1,4 @@
-#simpleBinMachine
+# simpleBinMachine
 
 Simple CPU emulator with own inscructions set writed in C for educational purposes.
 
