@@ -1,4 +1,4 @@
-/** Simple CPU emulator with own inscruction set writed in C
+/** Simple CPU emulator with own inscructions set writed in C
  * @file simpleBinMachine.c
  * @author Lukáš PLevač <lukasplevac@gmail.com>
  * @date 10.02.2020
