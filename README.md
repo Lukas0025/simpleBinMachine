@@ -40,7 +40,7 @@ ADR
   1         HEX       5E     DEC  94     BIN 01011110 //ADD  data from 11110 (1E) to register
   2         HEX       5E     DEC  94     BIN 01011110 //ADD  data from 11110 (1E) to register
   3         HEX       7D     DEC 125     BIN 01111101 //SAVE data from register to 11101 (1D)
-  4         HEX FFFFFFFF     DEC  -1     BIN 11111111
+  4         HEX FFFFFFFF     DEC  -1     BIN 11111111 //HALT
   5         HEX        0     DEC   0     BIN 00000000
   6         HEX        0     DEC   0     BIN 00000000
   7         HEX        0     DEC   0     BIN 00000000
