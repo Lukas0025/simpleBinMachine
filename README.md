@@ -24,7 +24,7 @@ Simple CPU emulator with own inscructions set writed in C for educational purpos
 #define HALT 0b111 // halt       - end of program
  ```
  
- #### sample code
+ #### Example code
  ```c
 00111111  //LOAD data from 11111 to register
 01011110  //ADD  data from 11110 to register
@@ -33,7 +33,7 @@ Simple CPU emulator with own inscructions set writed in C for educational purpos
 11100000  //HALT (program end)
  ```
  
- #### full memory sample
+ #### full memory example
   ```c
 ADR
   0         HEX       3F     DEC  63     BIN 00111111 //start of program (first command) - LOAD data from 11111 (1F) to register
